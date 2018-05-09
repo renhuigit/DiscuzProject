@@ -13,7 +13,7 @@ public class TestSearch extends BasicTestCase{
     public void testSearch() throws InterruptedException {
         HelperUserLogin.login(seleniumUtil,"admin","password");
         Thread.sleep(3000);
-        HelperSeach.search(seleniumUtil,"string");
+        HelperSeach.search(seleniumUtil,"selenium+java");
         HelperUserLogout.clickLogout(seleniumUtil);
 
     }

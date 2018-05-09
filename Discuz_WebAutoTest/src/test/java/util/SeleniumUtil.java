@@ -127,7 +127,7 @@ public class SeleniumUtil {
     public void switchToNewWindow() {
         Set<String> handles = webDriver.getWindowHandles();
         List<String> it = new ArrayList<String>(handles); //将set集合存入list对象
-        webDriver.switchTo().window(it.get(1)); //切换到弹出的新窗口
+        webDriver.switchTo().window(it.get(it.size()-1)); //切换到弹出的新窗口
         logger.info("成功切换窗口");
     }
     /**切换框架*/
@@ -135,9 +135,9 @@ public class SeleniumUtil {
         //封装进入id=value的frame中
         webDriver.switchTo().frame(frameId);
     }
-    public static void iframeNo(String by){
+    public static void iframeNo(By by){
         //封装进入没有id的frame中
-        WebElement frame=webDriver.findElement(By.xpath(by));
+        WebElement frame=webDriver.findElement(by);
         webDriver.switchTo().frame(frame);
     }
     /**切换默认iframe主文档*/
@@ -145,9 +145,12 @@ public class SeleniumUtil {
         //封装跳出iframe，进入default content
         webDriver.switchTo().defaultContent();
     }
-
-
-
+    /**选择下拉框*/
+    public void select(By by, String value){
+        //封装选择下拉框（ByValue）
+        Select select = new Select(webDriver.findElement(by));
+        select.selectByValue(value);
+    }
 
     /**设置显示等待元素*/
     public void waitForElementLoad(final By by, int timeOut){
@@ -171,12 +174,7 @@ public class SeleniumUtil {
     public void waitForElementLoad(By by){
         waitForElementLoad(by, 10);
     }
-
-    public void select(String by, String value){
-        //封装选择下拉框（ByValue）
-        Select select = new Select(webDriver.findElement(By.xpath(by)));
-        select.selectByValue(value);
-    }
+    /**等待页面元素加载完成*/
     public  void load(By by){
         //封装等待页面元素加载完成
         WebDriverWait wait = new WebDriverWait(webDriver, 30);

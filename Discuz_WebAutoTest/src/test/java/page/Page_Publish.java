@@ -13,11 +13,11 @@ public class Page_Publish {
 
     /**快速发帖*/
     /**快速发帖标题文本框*/
-    public static final By PUBLISH_TEXTAREA_TiTLE = By.xpath("//*[@id=\"subject\"]");
+    public static final By PUBLISH_TEXTAREA_TiTLE = By.id("subject");
     /**快速发帖发表内容文本框*/
-    public static final By PUBLISH_TEXTAREA_CONTENT = By.xpath("//*[@id=\"fastpostmessage\"]");
+    public static final By PUBLISH_TEXTAREA_CONTENT = By.id("fastpostmessage");
     /**快速发帖发表贴子按钮*/
-    public static final By PUBLISH_BUTTON_PUBLISHSUBMIT = By.xpath("//*[@id=\"fastpostsubmit\"]");
+    public static final By PUBLISH_BUTTON_PUBLISHSUBMIT = By.id("fastpostsubmit");
 
     /**通过发表按钮发表帖子*/
     /**发表按钮*/

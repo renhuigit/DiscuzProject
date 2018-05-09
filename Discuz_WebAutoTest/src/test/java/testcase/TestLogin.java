@@ -14,7 +14,8 @@ public class TestLogin extends BasicTestCase {
     public void testLogin() throws InterruptedException {
         HelperUserLogin.login(seleniumUtil,"admin","password");
         Thread.sleep(3000);
-        HelperPublish.PublishQuickly(seleniumUtil,"string","int");
+        HelperPublish.publishByButton(seleniumUtil,2,"string","string");
+//      HelperPublish.PublishQuickly(seleniumUtil,"string","int");
         Thread.sleep(3000);
         HelperReply.sendReply(seleniumUtil,"java");
         HelperReply.clickReplySubmit(seleniumUtil);

@@ -10,8 +10,8 @@ import java.util.Properties;
  * Created by rh on 2018/5/7.
  */
 public class ProUtil {
-    private Properties properties = null;
-    private Properties readProperties(String filePath){
+    private static Properties properties = null;
+    private static Properties readProperties(String filePath){
         properties = new Properties();
         try
         {
@@ -25,21 +25,19 @@ public class ProUtil {
         return properties;
     }
 
-    public String getDriverType(){
+    public static String getDriverType(){
         readProperties("./Configuration");
         String driverType = properties.getProperty("browser");
         return driverType;
     }
-    public String getDriverPath(){
+    public static String getDriverPath(){
         readProperties("./Configuration");
         String path = properties.getProperty("path");
         return path;
     }
-    public String getProperty(){
+    public static String getProperty(){
         readProperties("./Configuration");
         String property = properties.getProperty("property");
         return property;
     }
-
-
 }

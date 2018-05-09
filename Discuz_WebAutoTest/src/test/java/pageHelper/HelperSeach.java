@@ -1,5 +1,6 @@
 package pageHelper;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import page.Page_Search;
 import util.SeleniumUtil;
@@ -18,7 +19,16 @@ public class HelperSeach {
     public static void clickSearchButton(SeleniumUtil seleniumUtil){
         seleniumUtil.click(Page_Search.SEARCH_BUTTON_SEARCHBUTTON);
     }
+    /**选择搜索类型：用户/贴子/本版搜索*/
+    public static void selectSearchType(SeleniumUtil seleniumUtil,String value){
+        seleniumUtil.click(Page_Search.SEARCH_SELECT_SEARCHTYPE);
+        seleniumUtil.click(By.linkText(value));
+    }
     /**搜索类型，默认搜索帖子*/
+    /**点击搜索的帖子*/
+    public static void clickSearchPosting(SeleniumUtil seleniumUtil){
+        seleniumUtil.click(Page_Search.SEARCH_LINK_POSTINGS);
+    }
 
     /**验证是否相同*/
     public static void isExcepted(SeleniumUtil seleniumUtil, String exceptedContent){
@@ -33,10 +43,18 @@ public class HelperSeach {
        sendSeachContent(seleniumUtil,searchContent);
         clickSearchButton(seleniumUtil);
         seleniumUtil.switchToNewWindow();
+        clickSearchPosting(seleniumUtil);
+        seleniumUtil.switchToNewWindow();
         isExcepted(seleniumUtil,searchContent);
     }
 
     /**重构搜索方法 搜索用户*/
+    public static void searchUser(SeleniumUtil seleniumUtil,String searchContent,String value){
+        sendSeachContent(seleniumUtil,searchContent);
+        selectSearchType(seleniumUtil,value);
+        clickSearchButton(seleniumUtil);
+    }
+
 
 
 }

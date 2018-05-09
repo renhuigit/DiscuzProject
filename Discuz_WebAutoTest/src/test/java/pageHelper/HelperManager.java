@@ -14,7 +14,7 @@ public class HelperManager {
    /**输入用户名*/
    public static void sendLoginUserName(SeleniumUtil seleniumUtil,String password){
        seleniumUtil.switchToNewWindow();
-       seleniumUtil.sendKeys(Page_Manager.MANAGER_INPUT_LOGINPWD,password);
+       seleniumUtil.sendKeys(Page_Manager.MANAGER_INPUT_LOGINNAME,password);
    }
     /**输入密码*/
     public static void sendLoginPwd(SeleniumUtil seleniumUtil,String password){
@@ -48,14 +48,19 @@ public class HelperManager {
         seleniumUtil.switchToFrame(Page_Manager.MANAGER_IFRAME_FORUM);
          seleniumUtil.click(Page_Manager.MANAGER_LINK_ADDMOD);
     }
+    /**输入版块名称*/
+    public static void sendBlockName(SeleniumUtil seleniumUtil,String name){
+        seleniumUtil.sendKeys(Page_Manager.MANAGER_LINK_ADDMODNAME,name);
+    }
     /**提交修改*/
     public static void submitAddBlock(SeleniumUtil seleniumUtil){
         seleniumUtil.click(Page_Manager.MANAGER_BUTTON_SUMIT);
     }
     /**重构添加新版块方法*/
-    public static  void addBlock(SeleniumUtil seleniumUtil){
+    public static  void addBlock(SeleniumUtil seleniumUtil,String name){
         clickForum(seleniumUtil);
         clickaddBlock(seleniumUtil);
+        sendBlockName(seleniumUtil,name);
         submitAddBlock(seleniumUtil);
     }
 

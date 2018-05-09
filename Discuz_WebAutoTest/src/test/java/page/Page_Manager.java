@@ -20,6 +20,8 @@ public class Page_Manager {
     public static final By MANAGER_LINK_FORUM = By.id("header_forum");
     /**添加新版块*/
     public static final By MANAGER_LINK_ADDMOD = By.className("addtr");
+    /**版块名称文本框*/
+    public static final By MANAGER_LINK_ADDMODNAME = By.xpath("//*[@id=\"cpform\"]/table/tbody[3]/tr[1]/td[3]/div/input");
     /**论坛iframeID*/
     public static final String MANAGER_IFRAME_FORUM = "main";
     /**提交按钮*/
