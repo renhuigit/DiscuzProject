@@ -1,0 +1,6 @@
+browser = chrome
+path = ./tools/chromedriver.exe
+property = webdriver.chrome.driver
+#browser = firefox
+#path = ./tools/geckodriver.exe
+#property = webdriver.gecko.driver

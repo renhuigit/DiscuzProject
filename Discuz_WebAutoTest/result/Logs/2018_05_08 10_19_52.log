@@ -1,0 +1,46 @@
+[2018-05-08 10:19:56] [INFO] 启动chrome浏览器
+[2018-05-08 10:19:58] [INFO] 打开网址http://127.0.0.1:8086/bbs/forum.php
+[2018-05-08 10:19:58] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 10:19:58] [INFO] 找到页面元素 id: ls_username
+[2018-05-08 10:19:58] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 10:19:58] [INFO] 找到页面元素 id: ls_username
+[2018-05-08 10:19:58] [INFO] 清除文本成功
+[2018-05-08 10:19:58] [INFO] 输入内容成功
+[2018-05-08 10:19:58] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 10:19:58] [INFO] 找到页面元素 id: ls_password
+[2018-05-08 10:19:58] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 10:19:58] [INFO] 找到页面元素 id: ls_password
+[2018-05-08 10:19:58] [INFO] 清除文本成功
+[2018-05-08 10:19:58] [INFO] 输入内容成功
+[2018-05-08 10:19:58] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 10:19:58] [INFO] 找到页面元素 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 10:19:58] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 10:19:58] [INFO] 已点击元素 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 10:20:04] [INFO] 成功获取元素的定位值 xpath: //*[@id="um"]/p[1]/a[6]
+[2018-05-08 10:20:04] [INFO] 找到页面元素 xpath: //*[@id="um"]/p[1]/a[6]
+[2018-05-08 10:20:04] [INFO] 成功获取元素的定位值 xpath: //*[@id="um"]/p[1]/a[6]
+[2018-05-08 10:20:04] [INFO] 已点击元素 xpath: //*[@id="um"]/p[1]/a[6]
+[2018-05-08 10:20:04] [INFO] 成功切换窗口
+[2018-05-08 10:20:10] [INFO] 成功获取元素的定位值 name: admin_password
+[2018-05-08 10:20:10] [INFO] 找到页面元素 name: admin_password
+[2018-05-08 10:20:10] [INFO] 成功获取元素的定位值 name: admin_password
+[2018-05-08 10:20:10] [INFO] 找到页面元素 name: admin_password
+[2018-05-08 10:20:10] [INFO] 清除文本成功
+[2018-05-08 10:20:10] [INFO] 输入内容成功
+[2018-05-08 10:20:10] [INFO] 成功获取元素的定位值 name: submit
+[2018-05-08 10:20:10] [INFO] 找到页面元素 name: submit
+[2018-05-08 10:20:36] [INFO] 成功获取元素的定位值 name: submit
+[2018-05-08 10:20:36] [INFO] 已点击元素 name: submit
+[2018-05-08 10:20:40] [INFO] 成功获取元素的定位值 id: header_forum
+[2018-05-08 10:20:40] [INFO] 找到页面元素 id: header_forum
+[2018-05-08 10:20:42] [INFO] 成功获取元素的定位值 id: header_forum
+[2018-05-08 10:20:42] [INFO] 已点击元素 id: header_forum
+[2018-05-08 10:20:42] [INFO] 成功获取元素的定位值 class name: addtr
+[2018-05-08 10:20:42] [INFO] 找到页面元素 class name: addtr
+[2018-05-08 10:20:42] [INFO] 成功获取元素的定位值 class name: addtr
+[2018-05-08 10:20:42] [INFO] 已点击元素 class name: addtr
+[2018-05-08 10:20:42] [INFO] 成功获取元素的定位值 name: editsubmit
+[2018-05-08 10:20:42] [INFO] 找到页面元素 name: editsubmit
+[2018-05-08 10:20:43] [INFO] 成功获取元素的定位值 name: editsubmit
+[2018-05-08 10:20:43] [INFO] 已点击元素 name: editsubmit
+[2018-05-08 10:20:43] [INFO] driver退出成功

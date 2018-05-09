@@ -1,0 +1,4 @@
+[2018-05-08 17:01:31] [INFO] 启动chrome浏览器
+[2018-05-08 17:01:34] [INFO] 打开网址http://127.0.0.1:8086/bbs/forum.php?mod=viewthread&tid=29&extra=page%3D1
+[2018-05-08 17:01:34] [INFO] 找到页面元素
+[2018-05-08 17:01:34] [INFO] driver退出成功

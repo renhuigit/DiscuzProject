@@ -1,0 +1,51 @@
+[2018-05-08 16:51:35] [INFO] 启动chrome浏览器
+[2018-05-08 16:51:38] [INFO] 打开网址http://127.0.0.1:8086/bbs/forum.php
+[2018-05-08 16:51:38] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 16:51:38] [INFO] 找到页面元素 id: ls_username
+[2018-05-08 16:51:38] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 16:51:38] [INFO] 找到页面元素 id: ls_username
+[2018-05-08 16:51:38] [INFO] 清除文本成功
+[2018-05-08 16:51:38] [INFO] 输入内容成功
+[2018-05-08 16:51:38] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 16:51:38] [INFO] 找到页面元素 id: ls_password
+[2018-05-08 16:51:38] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 16:51:38] [INFO] 找到页面元素 id: ls_password
+[2018-05-08 16:51:38] [INFO] 清除文本成功
+[2018-05-08 16:51:38] [INFO] 输入内容成功
+[2018-05-08 16:51:38] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 16:51:38] [INFO] 找到页面元素 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 16:51:38] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 16:51:38] [INFO] 已点击元素 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 16:51:43] [INFO] 找到页面元素
+[2018-05-08 16:51:45] [INFO] 成功获取元素的定位值 xpath: //*[@id="newspecial"]/img
+[2018-05-08 16:51:45] [INFO] 找到页面元素 xpath: //*[@id="newspecial"]/img
+[2018-05-08 16:51:47] [INFO] 成功获取元素的定位值 xpath: //*[@id="newspecial"]/img
+[2018-05-08 16:51:47] [INFO] 已点击元素 xpath: //*[@id="newspecial"]/img
+[2018-05-08 16:51:50] [INFO] 成功获取元素的定位值 link text: 发起投票
+[2018-05-08 16:51:50] [INFO] 找到页面元素 link text: 发起投票
+[2018-05-08 16:51:52] [INFO] 成功获取元素的定位值 link text: 发起投票
+[2018-05-08 16:51:52] [INFO] 已点击元素 link text: 发起投票
+[2018-05-08 16:51:52] [INFO] 成功获取元素的定位值 id: subject
+[2018-05-08 16:51:52] [INFO] 找到页面元素 id: subject
+[2018-05-08 16:51:52] [INFO] 成功获取元素的定位值 id: subject
+[2018-05-08 16:51:52] [INFO] 找到页面元素 id: subject
+[2018-05-08 16:51:52] [INFO] 清除文本成功
+[2018-05-08 16:51:52] [INFO] 输入内容成功
+[2018-05-08 16:51:52] [INFO] 找到页面元素
+[2018-05-08 16:51:52] [INFO] 成功获取元素的定位值 tag name: body
+[2018-05-08 16:51:52] [INFO] 找到页面元素 tag name: body
+[2018-05-08 16:51:52] [INFO] 成功获取元素的定位值 tag name: body
+[2018-05-08 16:51:52] [INFO] 找到页面元素 tag name: body
+[2018-05-08 16:51:52] [INFO] 清除文本成功
+[2018-05-08 16:51:53] [INFO] 输入内容成功
+[2018-05-08 16:51:53] [INFO] 成功获取元素的定位值 id: postsubmit
+[2018-05-08 16:51:53] [INFO] 找到页面元素 id: postsubmit
+[2018-05-08 16:51:53] [INFO] 成功获取元素的定位值 id: postsubmit
+[2018-05-08 16:51:53] [INFO] 已点击元素 id: postsubmit
+[2018-05-08 16:51:57] [INFO] 找到页面元素
+[2018-05-08 16:51:57] [INFO] 成功获取元素的定位值 id: pollsubmit
+[2018-05-08 16:51:57] [INFO] 找到页面元素 id: pollsubmit
+[2018-05-08 16:51:59] [INFO] 成功获取元素的定位值 id: pollsubmit
+[2018-05-08 16:51:59] [INFO] 已点击元素 id: pollsubmit
+[2018-05-08 16:51:59] [INFO] 找到页面元素
+[2018-05-08 16:51:59] [INFO] driver退出成功

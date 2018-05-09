@@ -1,0 +1,114 @@
+[2018-05-08 11:45:35] [INFO] 启动chrome浏览器
+[2018-05-08 11:45:38] [INFO] 打开网址http://127.0.0.1:8086/bbs/forum.php
+[2018-05-08 11:45:38] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 11:45:38] [INFO] 找到页面元素 id: ls_username
+[2018-05-08 11:45:38] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 11:45:38] [INFO] 找到页面元素 id: ls_username
+[2018-05-08 11:45:38] [INFO] 清除文本成功
+[2018-05-08 11:45:38] [INFO] 输入内容成功
+[2018-05-08 11:45:38] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 11:45:38] [INFO] 找到页面元素 id: ls_password
+[2018-05-08 11:45:38] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 11:45:38] [INFO] 找到页面元素 id: ls_password
+[2018-05-08 11:45:39] [INFO] 清除文本成功
+[2018-05-08 11:45:39] [INFO] 输入内容成功
+[2018-05-08 11:45:39] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:45:39] [INFO] 找到页面元素 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:45:39] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:45:39] [INFO] 已点击元素 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:45:44] [INFO] 成功获取元素的定位值 xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a
+[2018-05-08 11:45:44] [INFO] 找到页面元素 xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a
+[2018-05-08 11:45:46] [INFO] 成功获取元素的定位值 xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a
+[2018-05-08 11:45:46] [INFO] 已点击元素 xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a
+[2018-05-08 11:45:49] [INFO] 成功获取元素的定位值 xpath: //*[@name="moderate[]"]
+[2018-05-08 11:45:49] [INFO] 找到页面元素 xpath: //*[@name="moderate[]"]
+[2018-05-08 11:45:49] [INFO] 成功获取元素的定位值 xpath: //*[@name="moderate[]"]
+[2018-05-08 11:45:49] [INFO] 已点击元素 xpath: //*[@name="moderate[]"]
+[2018-05-08 11:45:51] [INFO] 成功获取元素的定位值 xpath: //*[@id="mdly"]/p[1]/strong[1]/a
+[2018-05-08 11:45:51] [INFO] 找到页面元素 xpath: //*[@id="mdly"]/p[1]/strong[1]/a
+[2018-05-08 11:45:52] [INFO] 成功获取元素的定位值 xpath: //*[@id="mdly"]/p[1]/strong[1]/a
+[2018-05-08 11:45:52] [INFO] 已点击元素 xpath: //*[@id="mdly"]/p[1]/strong[1]/a
+[2018-05-08 11:45:54] [INFO] 成功获取元素的定位值 id: modsubmit
+[2018-05-08 11:45:54] [INFO] 找到页面元素 id: modsubmit
+[2018-05-08 11:45:56] [INFO] 成功获取元素的定位值 id: modsubmit
+[2018-05-08 11:45:56] [INFO] 已点击元素 id: modsubmit
+[2018-05-08 11:45:56] [INFO] 成功获取元素的定位值 xpath: //*[@id="um"]/p[1]/a[6]
+[2018-05-08 11:45:56] [INFO] 找到页面元素 xpath: //*[@id="um"]/p[1]/a[6]
+[2018-05-08 11:45:56] [INFO] 成功获取元素的定位值 xpath: //*[@id="um"]/p[1]/a[6]
+[2018-05-08 11:45:56] [INFO] 已点击元素 xpath: //*[@id="um"]/p[1]/a[6]
+[2018-05-08 11:45:56] [INFO] 成功切换窗口
+[2018-05-08 11:46:02] [INFO] 成功获取元素的定位值 name: admin_password
+[2018-05-08 11:46:02] [INFO] 找到页面元素 name: admin_password
+[2018-05-08 11:46:02] [INFO] 成功获取元素的定位值 name: admin_password
+[2018-05-08 11:46:02] [INFO] 找到页面元素 name: admin_password
+[2018-05-08 11:46:03] [INFO] 清除文本成功
+[2018-05-08 11:46:03] [INFO] 输入内容成功
+[2018-05-08 11:46:03] [INFO] 成功获取元素的定位值 name: submit
+[2018-05-08 11:46:03] [INFO] 找到页面元素 name: submit
+[2018-05-08 11:46:29] [INFO] 成功获取元素的定位值 name: submit
+[2018-05-08 11:46:29] [INFO] 已点击元素 name: submit
+[2018-05-08 11:46:33] [INFO] 成功获取元素的定位值 id: header_forum
+[2018-05-08 11:46:33] [INFO] 找到页面元素 id: header_forum
+[2018-05-08 11:46:34] [INFO] 成功获取元素的定位值 id: header_forum
+[2018-05-08 11:46:34] [INFO] 已点击元素 id: header_forum
+[2018-05-08 11:46:35] [INFO] 成功获取元素的定位值 class name: addtr
+[2018-05-08 11:46:35] [INFO] 找到页面元素 class name: addtr
+[2018-05-08 11:46:35] [INFO] 成功获取元素的定位值 class name: addtr
+[2018-05-08 11:46:35] [INFO] 已点击元素 class name: addtr
+[2018-05-08 11:46:35] [INFO] 成功获取元素的定位值 name: editsubmit
+[2018-05-08 11:46:35] [INFO] 找到页面元素 name: editsubmit
+[2018-05-08 11:46:36] [INFO] 成功获取元素的定位值 name: editsubmit
+[2018-05-08 11:46:36] [INFO] 已点击元素 name: editsubmit
+[2018-05-08 11:46:36] [INFO] 成功获取元素的定位值 link text: 退出
+[2018-05-08 11:46:36] [INFO] 找到页面元素 link text: 退出
+[2018-05-08 11:46:40] [INFO] 成功获取元素的定位值 link text: 退出
+[2018-05-08 11:46:40] [INFO] 已点击元素 link text: 退出
+[2018-05-08 11:46:40] [INFO] 成功切换窗口
+[2018-05-08 11:46:44] [INFO] 成功获取元素的定位值 link text: 退出
+[2018-05-08 11:46:44] [INFO] 找到页面元素 link text: 退出
+[2018-05-08 11:46:46] [INFO] 成功获取元素的定位值 link text: 退出
+[2018-05-08 11:46:46] [INFO] 已点击元素 link text: 退出
+[2018-05-08 11:46:50] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 11:46:50] [INFO] 找到页面元素 id: ls_username
+[2018-05-08 11:46:50] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 11:46:50] [INFO] 找到页面元素 id: ls_username
+[2018-05-08 11:46:50] [INFO] 清除文本成功
+[2018-05-08 11:46:50] [INFO] 输入内容成功
+[2018-05-08 11:46:50] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 11:46:50] [INFO] 找到页面元素 id: ls_password
+[2018-05-08 11:46:50] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 11:46:50] [INFO] 找到页面元素 id: ls_password
+[2018-05-08 11:46:50] [INFO] 清除文本成功
+[2018-05-08 11:46:50] [INFO] 输入内容成功
+[2018-05-08 11:46:50] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:46:50] [INFO] 找到页面元素 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:46:50] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:46:50] [INFO] 已点击元素 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:46:55] [INFO] 找到页面元素
+[2018-05-08 11:46:57] [INFO] 成功获取元素的定位值 xpath: //*[@id="subject"]
+[2018-05-08 11:46:57] [INFO] 找到页面元素 xpath: //*[@id="subject"]
+[2018-05-08 11:46:57] [INFO] 成功获取元素的定位值 xpath: //*[@id="subject"]
+[2018-05-08 11:46:57] [INFO] 找到页面元素 xpath: //*[@id="subject"]
+[2018-05-08 11:46:57] [INFO] 清除文本成功
+[2018-05-08 11:46:57] [INFO] 输入内容成功
+[2018-05-08 11:46:57] [INFO] 成功获取元素的定位值 xpath: //*[@id="fastpostmessage"]
+[2018-05-08 11:46:57] [INFO] 找到页面元素 xpath: //*[@id="fastpostmessage"]
+[2018-05-08 11:46:57] [INFO] 成功获取元素的定位值 xpath: //*[@id="fastpostmessage"]
+[2018-05-08 11:46:57] [INFO] 找到页面元素 xpath: //*[@id="fastpostmessage"]
+[2018-05-08 11:46:57] [INFO] 清除文本成功
+[2018-05-08 11:46:57] [INFO] 输入内容成功
+[2018-05-08 11:46:57] [INFO] 成功获取元素的定位值 xpath: //*[@id="fastpostsubmit"]
+[2018-05-08 11:46:57] [INFO] 找到页面元素 xpath: //*[@id="fastpostsubmit"]
+[2018-05-08 11:47:04] [INFO] 成功获取元素的定位值 xpath: //*[@id="fastpostsubmit"]
+[2018-05-08 11:47:04] [INFO] 已点击元素 xpath: //*[@id="fastpostsubmit"]
+[2018-05-08 11:47:20] [INFO] 成功获取元素的定位值 xpath: //textarea[@name="message"]
+[2018-05-08 11:47:20] [INFO] 找到页面元素 xpath: //textarea[@name="message"]
+[2018-05-08 11:47:20] [INFO] 成功获取元素的定位值 xpath: //textarea[@name="message"]
+[2018-05-08 11:47:20] [INFO] 找到页面元素 xpath: //textarea[@name="message"]
+[2018-05-08 11:47:20] [INFO] 清除文本成功
+[2018-05-08 11:47:20] [INFO] 输入内容成功
+[2018-05-08 11:47:24] [INFO] 成功获取元素的定位值 xpath: //button[@name="replysubmit"]
+[2018-05-08 11:47:24] [INFO] 找到页面元素 xpath: //button[@name="replysubmit"]
+[2018-05-08 11:47:25] [INFO] 成功获取元素的定位值 xpath: //button[@name="replysubmit"]
+[2018-05-08 11:47:25] [INFO] 已点击元素 xpath: //button[@name="replysubmit"]
+[2018-05-08 11:47:30] [INFO] driver退出成功
