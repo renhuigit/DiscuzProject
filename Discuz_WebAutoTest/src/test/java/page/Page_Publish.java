@@ -21,7 +21,7 @@ public class Page_Publish {
 
     /**通过发表按钮发表帖子*/
     /**发表按钮*/
-    public static final By PUBLISH_BUTTON_PUBLISHBLOCK = By.xpath("//*[@id=\"newspecial\"]/img");
+    public static final By PUBLISH_BUTTON_PUBLISHBLOCK = By.id("newspecial");
 
     /**投票帖子*/
     /**发起投票连接*/

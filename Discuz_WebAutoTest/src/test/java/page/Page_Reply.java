@@ -13,7 +13,7 @@ public class Page_Reply {
     /**回复*/
     public static final By COMMENT_LINK_REPLY = By.linkText("回复");
     /**回帖文本框*/
-    public static final By COMMENT_TEXTAREA_MESSAGE = By.xpath("//textarea[@name='message']");
+    public static final By COMMENT_TEXTAREA_MESSAGE = By.name("message");
     /**发表回复按钮*/
     public static final By COMMENT_BUTTON_REPLYSUBMIT = By.xpath("//button[@name=\"replysubmit\"]");
     /**回复按钮1*/

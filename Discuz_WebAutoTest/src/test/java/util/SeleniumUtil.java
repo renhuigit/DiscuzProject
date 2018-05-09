@@ -101,11 +101,18 @@ public class SeleniumUtil {
         logger.info("清除文本成功");
     }
     /**点击元素*/
-    public void click(By by){
-        WebElement element = getWelement(by);
-        element.click();
-        logger.info("已点击元素"+getLocatorByElement(element,">"));
+    public void click(By by) {
+        WebElement ele = getWelement(by);
+        try {
+            ele.click();
+            logger.info("点击元素：" + getLocatorByElement(ele, ">"));
+        } catch (Exception e) {
+            e.printStackTrace();
+            logger.error("点击元素" + getLocatorByElement(ele, ">") + "失败", e);
+            Assert.fail("点击元素" + getLocatorByElement(ele, ">"), e);
+        }
     }
+
     /**获取文本内容*/
     public String getText(By by){
         WebElement element = getWelement(by);

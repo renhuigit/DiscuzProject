@@ -10,7 +10,6 @@ public class TestAdmin_User extends BasicTestCase{
     @Test
     public void test() throws InterruptedException {
         HelperUserLogin.login(seleniumUtil,"admin","password");
-        Thread.sleep(1000);
         HelperPublish.clickDefultBlock(seleniumUtil);
         HelperDelete.delete(seleniumUtil,2);
         HelperManager.loginPwdSubmit(seleniumUtil,"password");
@@ -18,14 +17,11 @@ public class TestAdmin_User extends BasicTestCase{
         HelperUserLogout.clickAdminLogout(seleniumUtil);
         seleniumUtil.switchToNewWindow();
         HelperUserLogout.clickLogout(seleniumUtil);
-        Thread.sleep(2000);
         HelperUserLogin.login(seleniumUtil,"test","test");
-        Thread.sleep(1000);
         HelperPublish.publishInOther(seleniumUtil,1,"selenium+java","testng+selenium框架");
-        Thread.sleep(16000);
+        Thread.sleep(15000);
         HelperReply.sendReply(seleniumUtil,"selenium+testng+java框架");
         HelperReply.clickReplySubmit(seleniumUtil);
-        Thread.sleep(2000);
 
 
     }

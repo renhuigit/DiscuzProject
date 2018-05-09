@@ -15,13 +15,11 @@ public class TestVote extends BasicTestCase{
     @Test
     public void testVote() throws InterruptedException {
         HelperUserLogin.login(seleniumUtil,"test","test");
-        Thread.sleep(3000);
         List<String> list = new ArrayList<String>();
         list.add(0,"这就是街舞");
         list.add(1,"热血街舞团");
         list.add(2,"创造101");
         HelperPublish.voteByButton(seleniumUtil,1,"投票内容：这就是街舞，热血街舞团，101","网综节目投票",list);
-       Thread.sleep(3000);
         HelperVote.vote(seleniumUtil,0);
         List list1 = HelperVote.getNumberOfVotes(seleniumUtil);
        String voteTitle = HelperVote.getVoteTitle(seleniumUtil);

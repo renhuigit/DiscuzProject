@@ -9,12 +9,14 @@ import util.SeleniumUtil;
 public class HelperUserLogout {
     /**前端点击登出*/
     public static void clickLogout(SeleniumUtil seleniumUtil){
+        seleniumUtil.waitForElementLoad(Page_UserLogout.LOGOUT_LINK_LOGOUT);
         seleniumUtil.click(Page_UserLogout.LOGOUT_LINK_LOGOUT);
 
     }
     /**后台点击登出*/
     public static void clickAdminLogout(SeleniumUtil seleniumUtil){
         seleniumUtil.switchToDefaultContent();
+        seleniumUtil.waitForElementLoad(Page_UserLogout.LOGOUT_LINK_LOGOUT);
         seleniumUtil.click(Page_UserLogout.LOGOUT_LINK_LOGOUT);
     }
 }

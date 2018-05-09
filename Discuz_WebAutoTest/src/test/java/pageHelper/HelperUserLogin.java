@@ -9,18 +9,22 @@ import util.SeleniumUtil;
 public class HelperUserLogin {
     /**输入用户名*/
     public static void sendUsername(SeleniumUtil seleniumUtil,String userName){
+        seleniumUtil.waitForElementLoad(Page_UserLogin.LOGIN_INPUT_USERNAME);
         seleniumUtil.sendKeys(Page_UserLogin.LOGIN_INPUT_USERNAME,userName);
     }
     /**输入密码*/
     public static void sendPassword(SeleniumUtil seleniumUtil,String password){
+        seleniumUtil.waitForElementLoad(Page_UserLogin.LOGIN_INPUT_PASSWORD);
         seleniumUtil.sendKeys(Page_UserLogin.LOGIN_INPUT_PASSWORD,password);
     }
     /**点击选择自动登录*/
     public static void selectAutoLogin(SeleniumUtil seleniumUtil){
+        seleniumUtil.waitForElementLoad(Page_UserLogin.LOGIN_SELECT_AUTOLOGIN);
         seleniumUtil.click(Page_UserLogin.LOGIN_SELECT_AUTOLOGIN);
     }
     /**点击登录按钮*/
     public static void clickLoginButton(SeleniumUtil seleniumUtil){
+        seleniumUtil.waitForElementLoad(Page_UserLogin.LOGIN_BUTTON_LOGIN);
         seleniumUtil.click(Page_UserLogin.LOGIN_BUTTON_LOGIN);
     }
     /**重构登录方法(未选择自动登录)*/

@@ -34,7 +34,7 @@ public class BasicTestCase {
     @AfterMethod
     public void clearDriver(){
         if (driver!=null){
-            driver.quit();
+//            driver.quit();
             logger.info("driver退出成功");
         }else {
             logger.error("driver没有获取对象，退出失败");
