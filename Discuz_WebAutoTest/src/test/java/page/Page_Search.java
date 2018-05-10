@@ -15,7 +15,7 @@ public class Page_Search {
     /**搜索类型*/
     public static final By SEARCH_SELECT_SEARCHTYPE = By.id("scbar_type");
     /**搜索到的帖子标题*/
-    public static final By SEARCH_LINK_POSTINGS = By.xpath("//*[@id=\"39\"]/h3/a");
+    public static final By SEARCH_LINK_POSTINGS = By.xpath("//h3/a");
     /**搜索到的帖子标题*/
     public static final By SEARCH_LINK_POSTINGSTITLE = By.id("thread_subject");
 

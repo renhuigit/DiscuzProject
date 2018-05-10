@@ -1,0 +1,84 @@
+[2018-05-10 09:08:24] [INFO] 启动chrome浏览器
+[2018-05-10 09:08:27] [INFO] 打开网址http://127.0.0.1:8086/bbs/forum.php
+[2018-05-10 09:08:27] [INFO] 开始查找元素：By.id: ls_username
+[2018-05-10 09:08:27] [INFO] 找到了元素 [By.id: ls_username]
+[2018-05-10 09:08:27] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-10 09:08:27] [INFO] 找到页面元素 id: ls_username
+[2018-05-10 09:08:27] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-10 09:08:27] [INFO] 找到页面元素 id: ls_username
+[2018-05-10 09:08:27] [INFO] 清除文本成功
+[2018-05-10 09:08:27] [INFO] 输入内容成功
+[2018-05-10 09:08:27] [INFO] 开始查找元素：By.id: ls_password
+[2018-05-10 09:08:27] [INFO] 找到了元素 [By.id: ls_password]
+[2018-05-10 09:08:27] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-10 09:08:27] [INFO] 找到页面元素 id: ls_password
+[2018-05-10 09:08:27] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-10 09:08:27] [INFO] 找到页面元素 id: ls_password
+[2018-05-10 09:08:27] [INFO] 清除文本成功
+[2018-05-10 09:08:28] [INFO] 输入内容成功
+[2018-05-10 09:08:28] [INFO] 开始查找元素：By.xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 09:08:28] [INFO] 找到了元素 [By.xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button]
+[2018-05-10 09:08:28] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 09:08:28] [INFO] 找到页面元素 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 09:08:28] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 09:08:28] [INFO] 点击元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 09:08:28] [INFO] 开始查找元素：By.xpath: //td/a/img
+[2018-05-10 09:08:33] [INFO] 找到了元素 [By.xpath: //td/a/img]
+[2018-05-10 09:08:33] [INFO] 找到页面元素
+[2018-05-10 09:08:34] [INFO] 开始查找元素：By.id: newspecial
+[2018-05-10 09:08:34] [INFO] 找到了元素 [By.id: newspecial]
+[2018-05-10 09:08:35] [INFO] 成功获取元素的定位值 id: newspecial
+[2018-05-10 09:08:35] [INFO] 找到页面元素 id: newspecial
+[2018-05-10 09:08:36] [INFO] 成功获取元素的定位值 id: newspecial
+[2018-05-10 09:08:36] [INFO] 点击元素： id: newspecial
+[2018-05-10 09:08:36] [INFO] 开始查找元素：By.linkText: 发起投票
+[2018-05-10 09:08:36] [INFO] 找到了元素 [By.linkText: 发起投票]
+[2018-05-10 09:08:36] [INFO] 成功获取元素的定位值 link text: 发起投票
+[2018-05-10 09:08:36] [INFO] 找到页面元素 link text: 发起投票
+[2018-05-10 09:08:37] [INFO] 成功获取元素的定位值 link text: 发起投票
+[2018-05-10 09:08:37] [INFO] 点击元素： link text: 发起投票
+[2018-05-10 09:08:37] [INFO] 开始查找元素：By.id: subject
+[2018-05-10 09:08:37] [INFO] 找到了元素 [By.id: subject]
+[2018-05-10 09:08:37] [INFO] 成功获取元素的定位值 id: subject
+[2018-05-10 09:08:37] [INFO] 找到页面元素 id: subject
+[2018-05-10 09:08:37] [INFO] 成功获取元素的定位值 id: subject
+[2018-05-10 09:08:37] [INFO] 找到页面元素 id: subject
+[2018-05-10 09:08:38] [INFO] 清除文本成功
+[2018-05-10 09:08:38] [INFO] 输入内容成功
+[2018-05-10 09:08:38] [INFO] 开始查找元素：By.xpath: //p/input[@name="polloption[]"]
+[2018-05-10 09:08:38] [INFO] 找到了元素 [By.xpath: //p/input[@name="polloption[]"]]
+[2018-05-10 09:08:38] [INFO] 找到页面元素
+[2018-05-10 09:08:38] [INFO] 开始查找元素：By.tagName: body
+[2018-05-10 09:08:38] [INFO] 找到了元素 [By.tagName: body]
+[2018-05-10 09:08:38] [INFO] 成功获取元素的定位值 tag name: body
+[2018-05-10 09:08:38] [INFO] 找到页面元素 tag name: body
+[2018-05-10 09:08:38] [INFO] 成功获取元素的定位值 tag name: body
+[2018-05-10 09:08:38] [INFO] 找到页面元素 tag name: body
+[2018-05-10 09:08:38] [INFO] 清除文本成功
+[2018-05-10 09:08:38] [INFO] 输入内容成功
+[2018-05-10 09:08:38] [INFO] 开始查找元素：By.id: postsubmit
+[2018-05-10 09:08:38] [INFO] 找到了元素 [By.id: postsubmit]
+[2018-05-10 09:08:38] [INFO] 成功获取元素的定位值 id: postsubmit
+[2018-05-10 09:08:38] [INFO] 找到页面元素 id: postsubmit
+[2018-05-10 09:08:39] [INFO] 成功获取元素的定位值 id: postsubmit
+[2018-05-10 09:08:39] [INFO] 点击元素： id: postsubmit
+[2018-05-10 09:08:39] [INFO] 开始查找元素：By.xpath: //td[@class="pslt"]/input
+[2018-05-10 09:08:43] [INFO] 找到了元素 [By.xpath: //td[@class="pslt"]/input]
+[2018-05-10 09:08:43] [INFO] 找到页面元素
+[2018-05-10 09:08:43] [INFO] 开始查找元素：By.id: pollsubmit
+[2018-05-10 09:08:43] [INFO] 找到了元素 [By.id: pollsubmit]
+[2018-05-10 09:08:43] [INFO] 成功获取元素的定位值 id: pollsubmit
+[2018-05-10 09:08:43] [INFO] 找到页面元素 id: pollsubmit
+[2018-05-10 09:08:45] [INFO] 成功获取元素的定位值 id: pollsubmit
+[2018-05-10 09:08:45] [INFO] 点击元素： id: pollsubmit
+[2018-05-10 09:08:45] [INFO] 开始查找元素：By.xpath: //table[@summary="poll panel"]/tbody/tr/td[2]
+[2018-05-10 09:08:45] [INFO] 找到了元素 [By.xpath: //table[@summary="poll panel"]/tbody/tr/td[2]]
+[2018-05-10 09:08:45] [INFO] 找到页面元素
+[2018-05-10 09:08:46] [INFO] 开始查找元素：By.id: thread_subject
+[2018-05-10 09:08:46] [INFO] 找到了元素 [By.id: thread_subject]
+[2018-05-10 09:08:46] [INFO] 成功获取元素的定位值 id: thread_subject
+[2018-05-10 09:08:46] [INFO] 找到页面元素 id: thread_subject
+[2018-05-10 09:08:46] [INFO] 开始查找元素：By.xpath: //table/tbody/tr/td[@class="pvt"]
+[2018-05-10 09:08:46] [INFO] 找到了元素 [By.xpath: //table/tbody/tr/td[@class="pvt"]]
+[2018-05-10 09:08:46] [INFO] 找到页面元素
+[2018-05-10 09:08:46] [INFO] driver退出成功
