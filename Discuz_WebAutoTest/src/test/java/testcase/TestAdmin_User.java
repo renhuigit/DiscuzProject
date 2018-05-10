@@ -11,7 +11,7 @@ public class TestAdmin_User extends BasicTestCase{
     public void test() throws InterruptedException {
         HelperUserLogin.login(seleniumUtil,"admin","password");
         HelperPublish.clickDefultBlock(seleniumUtil);
-        HelperDelete.delete(seleniumUtil,2);
+        HelperDelete.delete(seleniumUtil,0);
         HelperManager.loginPwdSubmit(seleniumUtil,"password");
         HelperManager.addBlock(seleniumUtil,"北京");
         HelperUserLogout.clickAdminLogout(seleniumUtil);
