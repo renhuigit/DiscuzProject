@@ -15,12 +15,12 @@ public class TestLogin extends BasicTestCase {
     public void testLogin() throws InterruptedException {
         HelperUserLogin.login(seleniumUtil,"admin","password");
         seleniumUtil.assertPage("论坛 - Powered by Discuz!");
-        HelperPublish.publishByButton(seleniumUtil,0,"string","string");
-//        HelperPublish.PublishQuickly(seleniumUtil,"string","int");
-        HelperReply.sendReply(seleniumUtil,"java");
-        HelperReply.clickReplySubmit(seleniumUtil);
-        HelperUserLogout.clickLogout(seleniumUtil);
-        Thread.sleep(2000);
+//        HelperPublish.publishByButton(seleniumUtil,0,"string","string");
+////        HelperPublish.PublishQuickly(seleniumUtil,"string","int");
+//        HelperReply.sendReply(seleniumUtil,"java");
+//        HelperReply.clickReplySubmit(seleniumUtil);
+//        HelperUserLogout.clickLogout(seleniumUtil);
+//        Thread.sleep(2000);
     }
 
 
