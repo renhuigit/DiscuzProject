@@ -1,0 +1,58 @@
+[2018-05-10 13:40:12] [INFO] 启动chrome浏览器
+[2018-05-10 13:40:15] [INFO] 打开网址http://127.0.0.1:8086/bbs/forum.php
+[2018-05-10 13:40:15] [INFO] 找到了对应得title，当前页面正确：【论坛 - Powered by Discuz!】
+[2018-05-10 13:40:15] [INFO] 开始查找元素：By.id: ls_username
+[2018-05-10 13:40:15] [INFO] 找到了元素 [By.id: ls_username]
+[2018-05-10 13:40:15] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-10 13:40:15] [INFO] 找到页面元素 id: ls_username
+[2018-05-10 13:40:15] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-10 13:40:15] [INFO] 找到页面元素 id: ls_username
+[2018-05-10 13:40:15] [INFO] 清除文本成功
+[2018-05-10 13:40:15] [INFO] 输入内容成功
+[2018-05-10 13:40:15] [INFO] 开始查找元素：By.id: ls_password
+[2018-05-10 13:40:15] [INFO] 找到了元素 [By.id: ls_password]
+[2018-05-10 13:40:15] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-10 13:40:15] [INFO] 找到页面元素 id: ls_password
+[2018-05-10 13:40:15] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-10 13:40:15] [INFO] 找到页面元素 id: ls_password
+[2018-05-10 13:40:15] [INFO] 清除文本成功
+[2018-05-10 13:40:16] [INFO] 输入内容成功
+[2018-05-10 13:40:16] [INFO] 开始查找元素：By.xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 13:40:16] [INFO] 找到了元素 [By.xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button]
+[2018-05-10 13:40:16] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 13:40:16] [INFO] 找到页面元素 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 13:40:16] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 13:40:16] [INFO] 点击元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 13:40:16] [INFO] 开始查找元素：By.id: scbar_txt
+[2018-05-10 13:40:21] [INFO] 找到了元素 [By.id: scbar_txt]
+[2018-05-10 13:40:21] [INFO] 成功获取元素的定位值 id: scbar_txt
+[2018-05-10 13:40:21] [INFO] 找到页面元素 id: scbar_txt
+[2018-05-10 13:40:21] [INFO] 成功获取元素的定位值 id: scbar_txt
+[2018-05-10 13:40:21] [INFO] 找到页面元素 id: scbar_txt
+[2018-05-10 13:40:21] [INFO] 清除文本成功
+[2018-05-10 13:40:22] [INFO] 输入内容成功
+[2018-05-10 13:40:22] [INFO] 开始查找元素：By.id: scbar_btn
+[2018-05-10 13:40:22] [INFO] 找到了元素 [By.id: scbar_btn]
+[2018-05-10 13:40:22] [INFO] 成功获取元素的定位值 id: scbar_btn
+[2018-05-10 13:40:22] [INFO] 找到页面元素 id: scbar_btn
+[2018-05-10 13:40:22] [INFO] 成功获取元素的定位值 id: scbar_btn
+[2018-05-10 13:40:22] [INFO] 点击元素： id: scbar_btn
+[2018-05-10 13:40:22] [INFO] 成功切换窗口
+[2018-05-10 13:40:22] [INFO] 开始查找元素：By.xpath: //h3/a
+[2018-05-10 13:40:24] [INFO] 找到了元素 [By.xpath: //h3/a]
+[2018-05-10 13:40:24] [INFO] 成功获取元素的定位值 xpath: //h3/a
+[2018-05-10 13:40:24] [INFO] 找到页面元素 xpath: //h3/a
+[2018-05-10 13:40:24] [INFO] 成功获取元素的定位值 xpath: //h3/a
+[2018-05-10 13:40:24] [INFO] 点击元素： xpath: //h3/a
+[2018-05-10 13:40:24] [INFO] 成功切换窗口
+[2018-05-10 13:40:24] [INFO] 开始查找元素：By.id: thread_subject
+[2018-05-10 13:40:26] [INFO] 找到了元素 [By.id: thread_subject]
+[2018-05-10 13:40:26] [INFO] 找到页面元素
+[2018-05-10 13:40:26] [INFO] 找到了对应得文本，当前页面正确：【selenium+java】
+[2018-05-10 13:40:26] [INFO] 开始查找元素：By.linkText: 退出
+[2018-05-10 13:40:27] [INFO] 找到了元素 [By.linkText: 退出]
+[2018-05-10 13:40:27] [INFO] 成功获取元素的定位值 link text: 退出
+[2018-05-10 13:40:27] [INFO] 找到页面元素 link text: 退出
+[2018-05-10 13:40:28] [INFO] 成功获取元素的定位值 link text: 退出
+[2018-05-10 13:40:28] [INFO] 点击元素： link text: 退出
+[2018-05-10 13:40:28] [INFO] driver退出成功

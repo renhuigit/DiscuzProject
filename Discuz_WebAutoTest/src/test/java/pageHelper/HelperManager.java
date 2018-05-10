@@ -45,7 +45,6 @@ public class HelperManager {
     /**添加新版块*/
     /**点击论坛*/
     public static void clickForum(SeleniumUtil seleniumUtil){
-
         seleniumUtil.waitForElementLoad(Page_Manager.MANAGER_LINK_FORUM);
         seleniumUtil.click(Page_Manager.MANAGER_LINK_FORUM);
     }

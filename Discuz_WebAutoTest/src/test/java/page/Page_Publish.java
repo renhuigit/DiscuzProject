@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
  */
 public class Page_Publish {
     /**默认板块*/
-    public static final By PUBLISH_LINK_BLOCK = By.xpath("//*[@id=\"category_1\"]/table/tbody/tr[1]/td[2]/h2/a");
+    public static final By PUBLISH_LINK_BLOCK = By.linkText("默认版块");
     /**查找版块*/
     public static final By PUBLISH_LINK_BLOCKS = By.xpath("//td/a/img");
 

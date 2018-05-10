@@ -1,0 +1,80 @@
+[2018-05-10 12:09:38] [INFO] 启动chrome浏览器
+[2018-05-10 12:09:41] [INFO] 打开网址http://127.0.0.1:8086/bbs/forum.php
+[2018-05-10 12:09:41] [INFO] 找到了对应得title，当前页面正确：【论坛 - Powered by Discuz!】
+[2018-05-10 12:09:41] [INFO] 开始查找元素：By.id: ls_username
+[2018-05-10 12:09:41] [INFO] 找到了元素 [By.id: ls_username]
+[2018-05-10 12:09:41] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-10 12:09:41] [INFO] 找到页面元素 id: ls_username
+[2018-05-10 12:09:41] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-10 12:09:41] [INFO] 找到页面元素 id: ls_username
+[2018-05-10 12:09:41] [INFO] 清除文本成功
+[2018-05-10 12:09:41] [INFO] 输入内容成功
+[2018-05-10 12:09:41] [INFO] 开始查找元素：By.id: ls_password
+[2018-05-10 12:09:41] [INFO] 找到了元素 [By.id: ls_password]
+[2018-05-10 12:09:41] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-10 12:09:41] [INFO] 找到页面元素 id: ls_password
+[2018-05-10 12:09:41] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-10 12:09:41] [INFO] 找到页面元素 id: ls_password
+[2018-05-10 12:09:41] [INFO] 清除文本成功
+[2018-05-10 12:09:41] [INFO] 输入内容成功
+[2018-05-10 12:09:41] [INFO] 开始查找元素：By.xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 12:09:41] [INFO] 找到了元素 [By.xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button]
+[2018-05-10 12:09:41] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 12:09:41] [INFO] 找到页面元素 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 12:09:41] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 12:09:41] [INFO] 点击元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 12:09:41] [INFO] 找到了对应得title，当前页面正确：【论坛 - Powered by Discuz!】
+[2018-05-10 12:09:41] [INFO] 开始查找元素：By.xpath: //td/a/img
+[2018-05-10 12:09:47] [INFO] 找到了元素 [By.xpath: //td/a/img]
+[2018-05-10 12:09:47] [INFO] 找到页面元素
+[2018-05-10 12:09:48] [INFO] 开始查找元素：By.id: newspecial
+[2018-05-10 12:09:48] [INFO] 找到了元素 [By.id: newspecial]
+[2018-05-10 12:09:48] [INFO] 成功获取元素的定位值 id: newspecial
+[2018-05-10 12:09:48] [INFO] 找到页面元素 id: newspecial
+[2018-05-10 12:09:50] [INFO] 成功获取元素的定位值 id: newspecial
+[2018-05-10 12:09:50] [INFO] 点击元素： id: newspecial
+[2018-05-10 12:09:50] [INFO] 开始查找元素：By.id: subject
+[2018-05-10 12:09:50] [INFO] 找到了元素 [By.id: subject]
+[2018-05-10 12:09:50] [INFO] 成功获取元素的定位值 id: subject
+[2018-05-10 12:09:50] [INFO] 找到页面元素 id: subject
+[2018-05-10 12:09:50] [INFO] 成功获取元素的定位值 id: subject
+[2018-05-10 12:09:50] [INFO] 找到页面元素 id: subject
+[2018-05-10 12:09:50] [INFO] 清除文本成功
+[2018-05-10 12:09:50] [INFO] 输入内容成功
+[2018-05-10 12:09:50] [INFO] 进入id=e_iframe的frame中
+[2018-05-10 12:09:50] [INFO] 开始查找元素：By.tagName: body
+[2018-05-10 12:09:50] [INFO] 找到了元素 [By.tagName: body]
+[2018-05-10 12:09:50] [INFO] 成功获取元素的定位值 tag name: body
+[2018-05-10 12:09:50] [INFO] 找到页面元素 tag name: body
+[2018-05-10 12:09:50] [INFO] 成功获取元素的定位值 tag name: body
+[2018-05-10 12:09:50] [INFO] 找到页面元素 tag name: body
+[2018-05-10 12:09:50] [INFO] 清除文本成功
+[2018-05-10 12:09:50] [INFO] 输入内容成功
+[2018-05-10 12:09:50] [INFO] 跳出iframe，进入default content
+[2018-05-10 12:09:50] [INFO] 开始查找元素：By.id: postsubmit
+[2018-05-10 12:09:50] [INFO] 找到了元素 [By.id: postsubmit]
+[2018-05-10 12:09:50] [INFO] 成功获取元素的定位值 id: postsubmit
+[2018-05-10 12:09:50] [INFO] 找到页面元素 id: postsubmit
+[2018-05-10 12:09:51] [INFO] 成功获取元素的定位值 id: postsubmit
+[2018-05-10 12:09:51] [INFO] 点击元素： id: postsubmit
+[2018-05-10 12:09:51] [INFO] 开始查找元素：By.name: message
+[2018-05-10 12:09:55] [INFO] 找到了元素 [By.name: message]
+[2018-05-10 12:09:55] [INFO] 成功获取元素的定位值 name: message
+[2018-05-10 12:09:55] [INFO] 找到页面元素 name: message
+[2018-05-10 12:09:55] [INFO] 成功获取元素的定位值 name: message
+[2018-05-10 12:09:55] [INFO] 找到页面元素 name: message
+[2018-05-10 12:09:55] [INFO] 清除文本成功
+[2018-05-10 12:09:55] [INFO] 输入内容成功
+[2018-05-10 12:09:55] [INFO] 开始查找元素：By.xpath: //button[@name="replysubmit"]
+[2018-05-10 12:09:55] [INFO] 找到了元素 [By.xpath: //button[@name="replysubmit"]]
+[2018-05-10 12:09:55] [INFO] 成功获取元素的定位值 xpath: //button[@name="replysubmit"]
+[2018-05-10 12:09:55] [INFO] 找到页面元素 xpath: //button[@name="replysubmit"]
+[2018-05-10 12:09:56] [INFO] 成功获取元素的定位值 xpath: //button[@name="replysubmit"]
+[2018-05-10 12:09:56] [INFO] 点击元素： xpath: //button[@name="replysubmit"]
+[2018-05-10 12:09:56] [INFO] 开始查找元素：By.linkText: 退出
+[2018-05-10 12:09:56] [INFO] 找到了元素 [By.linkText: 退出]
+[2018-05-10 12:09:56] [INFO] 成功获取元素的定位值 link text: 退出
+[2018-05-10 12:09:56] [INFO] 找到页面元素 link text: 退出
+[2018-05-10 12:09:58] [INFO] 成功获取元素的定位值 link text: 退出
+[2018-05-10 12:09:58] [INFO] 点击元素： link text: 退出
+[2018-05-10 12:10:00] [INFO] driver退出成功

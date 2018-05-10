@@ -130,6 +130,18 @@ public class SeleniumUtil {
         }
         logger.info("找到了对应得文本，当前页面正确：【"+actual+"】");
     }
+    /* 10.根据顶部title判断当前页面是否是预期页面 assertPage*/
+    public void assertPage(String exceptedContent) {
+        String actual=webDriver.getTitle();
+        try{
+            Assert.assertEquals(actual,exceptedContent);
+        }catch (Exception e){
+            e.getStackTrace();
+            logger.info("未找到了对应的title，当前页面是：【"+actual+"】，期望页面是：【"+exceptedContent+"】");
+        }
+        logger.info("找到了对应得title，当前页面正确：【"+actual+"】");
+
+    }
     /**切换窗口*/
     public void switchToNewWindow() {
         Set<String> handles = webDriver.getWindowHandles();
@@ -141,6 +153,7 @@ public class SeleniumUtil {
     public void switchToFrame(String frameId){
         //封装进入id=value的frame中
         webDriver.switchTo().frame(frameId);
+        logger.info("进入id="+frameId+"的frame中");
     }
     public static void iframeNo(By by){
         //封装进入没有id的frame中
@@ -151,6 +164,7 @@ public class SeleniumUtil {
     public void switchToDefaultContent(){
         //封装跳出iframe，进入default content
         webDriver.switchTo().defaultContent();
+        logger.info("跳出iframe，进入default content");
     }
     /**选择下拉框*/
     public void select(By by, String value){
@@ -181,11 +195,6 @@ public class SeleniumUtil {
     public void waitForElementLoad(By by){
         waitForElementLoad(by, 10);
     }
-    /**等待页面元素加载完成*/
-    public  void load(By by){
-        //封装等待页面元素加载完成
-        WebDriverWait wait = new WebDriverWait(webDriver, 30);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
-    }
+
 
 }

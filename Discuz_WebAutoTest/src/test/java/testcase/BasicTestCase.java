@@ -30,6 +30,7 @@ public class BasicTestCase {
         System.setProperty(property, path);
         driver = seleniumUtil.getWebDriver(value);
         seleniumUtil.Url("http://127.0.0.1:8086/bbs/forum.php");
+        seleniumUtil.assertPage("论坛 - Powered by Discuz!");
     }
     @AfterMethod
     public void clearDriver(){

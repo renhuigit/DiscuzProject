@@ -1,5 +1,6 @@
 package testcase;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import pageHelper.HelperPublish;
 import pageHelper.HelperReply;
@@ -13,8 +14,9 @@ public class TestLogin extends BasicTestCase {
     @Test
     public void testLogin() throws InterruptedException {
         HelperUserLogin.login(seleniumUtil,"admin","password");
-        HelperPublish.publishByButton(seleniumUtil,2,"string","string");
-//      HelperPublish.PublishQuickly(seleniumUtil,"string","int");
+        seleniumUtil.assertPage("论坛 - Powered by Discuz!");
+        HelperPublish.publishByButton(seleniumUtil,0,"string","string");
+//        HelperPublish.PublishQuickly(seleniumUtil,"string","int");
         HelperReply.sendReply(seleniumUtil,"java");
         HelperReply.clickReplySubmit(seleniumUtil);
         HelperUserLogout.clickLogout(seleniumUtil);

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [DiscuzWhiteTest]">
+  <parameter name="Browser" value="chrome"/>
+  <test name="product">
+    <classes>
+      <class name="testcase.TestLogin"/>
+      <class name="testcase.TestAdmin_User"/>
+      <class name="testcase.TestSearch"/>
+      <class name="testcase.TestVote"/>
+    </classes>
+  </test> <!-- product -->
+</suite> <!-- Failed suite [DiscuzWhiteTest] -->
