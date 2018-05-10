@@ -1,0 +1,55 @@
+[2018-05-10 16:26:51] [INFO] 启动chrome浏览器
+[2018-05-10 16:26:54] [INFO] 打开网址http://127.0.0.1:8086/bbs/forum.php
+[2018-05-10 16:26:54] [INFO] 找到了对应得title，当前页面正确：【论坛 - Powered by Discuz!】
+[2018-05-10 16:26:54] [INFO] 开始查找元素：By.id: ls_username
+[2018-05-10 16:26:54] [INFO] 找到了元素 [By.id: ls_username]
+[2018-05-10 16:26:54] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-10 16:26:54] [INFO] 找到页面元素 id: ls_username
+[2018-05-10 16:26:54] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-10 16:26:54] [INFO] 找到页面元素 id: ls_username
+[2018-05-10 16:26:54] [INFO] 清除文本成功
+[2018-05-10 16:26:54] [INFO] 输入内容成功
+[2018-05-10 16:26:54] [INFO] 开始查找元素：By.id: ls_password
+[2018-05-10 16:26:54] [INFO] 找到了元素 [By.id: ls_password]
+[2018-05-10 16:26:54] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-10 16:26:54] [INFO] 找到页面元素 id: ls_password
+[2018-05-10 16:26:54] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-10 16:26:54] [INFO] 找到页面元素 id: ls_password
+[2018-05-10 16:26:54] [INFO] 清除文本成功
+[2018-05-10 16:26:54] [INFO] 输入内容成功
+[2018-05-10 16:26:54] [INFO] 开始查找元素：By.xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 16:26:54] [INFO] 找到了元素 [By.xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button]
+[2018-05-10 16:26:54] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 16:26:54] [INFO] 找到页面元素 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 16:26:54] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 16:26:54] [INFO] 点击元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 16:26:54] [INFO] 找到了对应得title，当前页面正确：【论坛 - Powered by Discuz!】
+[2018-05-10 16:26:56] [INFO] 开始查找元素：By.linkText: 北京
+[2018-05-10 16:27:00] [INFO] 找到了元素 [By.linkText: 北京]
+[2018-05-10 16:27:00] [INFO] 成功获取元素的定位值 link text: 北京
+[2018-05-10 16:27:00] [INFO] 找到页面元素 link text: 北京
+[2018-05-10 16:27:02] [INFO] 成功获取元素的定位值 link text: 北京
+[2018-05-10 16:27:02] [INFO] 点击元素： link text: 北京
+[2018-05-10 16:27:02] [INFO] 开始查找元素：By.id: subject
+[2018-05-10 16:27:02] [INFO] 找到了元素 [By.id: subject]
+[2018-05-10 16:27:02] [INFO] 成功获取元素的定位值 id: subject
+[2018-05-10 16:27:02] [INFO] 找到页面元素 id: subject
+[2018-05-10 16:27:02] [INFO] 成功获取元素的定位值 id: subject
+[2018-05-10 16:27:02] [INFO] 找到页面元素 id: subject
+[2018-05-10 16:27:02] [INFO] 清除文本成功
+[2018-05-10 16:27:02] [INFO] 输入内容成功
+[2018-05-10 16:27:02] [INFO] 开始查找元素：By.id: fastpostmessage
+[2018-05-10 16:27:02] [INFO] 找到了元素 [By.id: fastpostmessage]
+[2018-05-10 16:27:02] [INFO] 成功获取元素的定位值 id: fastpostmessage
+[2018-05-10 16:27:02] [INFO] 找到页面元素 id: fastpostmessage
+[2018-05-10 16:27:02] [INFO] 成功获取元素的定位值 id: fastpostmessage
+[2018-05-10 16:27:02] [INFO] 找到页面元素 id: fastpostmessage
+[2018-05-10 16:27:02] [INFO] 清除文本成功
+[2018-05-10 16:27:02] [INFO] 输入内容成功
+[2018-05-10 16:27:02] [INFO] 开始查找元素：By.id: fastpostsubmit
+[2018-05-10 16:27:02] [INFO] 找到了元素 [By.id: fastpostsubmit]
+[2018-05-10 16:27:02] [INFO] 成功获取元素的定位值 id: fastpostsubmit
+[2018-05-10 16:27:02] [INFO] 找到页面元素 id: fastpostsubmit
+[2018-05-10 16:27:05] [INFO] 成功获取元素的定位值 id: fastpostsubmit
+[2018-05-10 16:27:05] [INFO] 点击元素： id: fastpostsubmit
+[2018-05-10 16:27:05] [INFO] driver退出成功

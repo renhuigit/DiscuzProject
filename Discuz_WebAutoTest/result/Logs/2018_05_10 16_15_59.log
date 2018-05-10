@@ -1,0 +1,28 @@
+[2018-05-10 16:16:02] [INFO] 启动chrome浏览器
+[2018-05-10 16:16:05] [INFO] 打开网址http://127.0.0.1:8086/bbs/forum.php
+[2018-05-10 16:16:05] [INFO] 找到了对应得title，当前页面正确：【论坛 - Powered by Discuz!】
+[2018-05-10 16:16:05] [INFO] 开始查找元素：By.id: ls_username
+[2018-05-10 16:16:05] [INFO] 找到了元素 [By.id: ls_username]
+[2018-05-10 16:16:05] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-10 16:16:05] [INFO] 找到页面元素 id: ls_username
+[2018-05-10 16:16:05] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-10 16:16:05] [INFO] 找到页面元素 id: ls_username
+[2018-05-10 16:16:05] [INFO] 清除文本成功
+[2018-05-10 16:16:05] [INFO] 输入内容成功
+[2018-05-10 16:16:05] [INFO] 开始查找元素：By.id: ls_password
+[2018-05-10 16:16:05] [INFO] 找到了元素 [By.id: ls_password]
+[2018-05-10 16:16:05] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-10 16:16:05] [INFO] 找到页面元素 id: ls_password
+[2018-05-10 16:16:05] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-10 16:16:05] [INFO] 找到页面元素 id: ls_password
+[2018-05-10 16:16:05] [INFO] 清除文本成功
+[2018-05-10 16:16:05] [INFO] 输入内容成功
+[2018-05-10 16:16:05] [INFO] 开始查找元素：By.xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 16:16:05] [INFO] 找到了元素 [By.xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button]
+[2018-05-10 16:16:05] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 16:16:05] [INFO] 找到页面元素 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 16:16:06] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 16:16:06] [INFO] 点击元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-10 16:16:06] [INFO] 找到了对应得title，当前页面正确：【论坛 - Powered by Discuz!】
+[2018-05-10 16:16:06] [INFO] 开始查找元素：By.linkText: 默认版块
+[2018-05-10 16:16:11] [INFO] driver退出成功
