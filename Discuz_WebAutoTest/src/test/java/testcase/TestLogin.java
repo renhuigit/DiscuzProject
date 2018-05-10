@@ -19,6 +19,7 @@ public class TestLogin extends BasicTestCase {
 //        HelperPublish.publishByButton(seleniumUtil,0,"string","string");
         HelperPublish.PublishQuickly(seleniumUtil,"string","int");
         HelperReply.sendReply(seleniumUtil,"java");
+        Thread.sleep(2000);
         HelperReply.clickReplySubmit(seleniumUtil);
         HelperUserLogout.clickLogout(seleniumUtil);
         Thread.sleep(2000);
