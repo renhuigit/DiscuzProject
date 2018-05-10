@@ -52,11 +52,11 @@
                 <version>2.5</version>
 				<configuration>
                 <testFailureIgnore>true</testFailureIgnore>
-            </configuration>
-                <!--<configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>./testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+            </configuration>
+                <!--<configuration>
                     <reportsDirectory>./result/report</reportsDirectory>
                 </configuration>-->
             </plugin>
