@@ -22,6 +22,7 @@ public class TestAdmin_User extends BasicTestCase{
         Thread.sleep(15000);
         HelperReply.sendReply(seleniumUtil,"selenium+testng+java框架");
         HelperReply.clickReplySubmit(seleniumUtil);
+        HelperUserLogout.clickLogout(seleniumUtil);
 
 
     }
