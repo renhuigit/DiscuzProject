@@ -20,9 +20,8 @@ public class HelperReply {
         seleniumUtil.click(Page_Reply.COMMENT_LINK_POSTINGS);
     }
     /**输入回复内容*/
-    public static void sendReply(SeleniumUtil seleniumUtil,String reply) throws InterruptedException {
+    public static void sendReply(SeleniumUtil seleniumUtil,String reply){
         seleniumUtil.waitForElementLoad(Page_Reply.COMMENT_TEXTAREA_MESSAGE);
-        Thread.sleep(2000);
         seleniumUtil.sendKeys(Page_Reply.COMMENT_TEXTAREA_MESSAGE,reply);
     }
     /**点击回复按钮*/
@@ -31,7 +30,7 @@ public class HelperReply {
         seleniumUtil.click(Page_Reply.COMMENT_BUTTON_REPLYSUBMIT);
     }
     /**快速回复方法重构*/
-    public static void replyQuickly(SeleniumUtil seleniumUtil,String content) throws InterruptedException {
+    public static void replyQuickly(SeleniumUtil seleniumUtil,String content){
         clickDefultBloc(seleniumUtil);
         clickFirstPosting(seleniumUtil);
         sendReply(seleniumUtil,content);
