@@ -5,7 +5,7 @@
         <test name="product">
         <classes>
             <class name="testcase.TestLogin"/>
-			 <class name="testcase.TestAdmin_User"/>
+			<!-- <class name="testcase.TestAdmin_User"/> -->
            <class name="testcase.TestSearch"/>
             <class name="testcase.TestVote"/>
         </classes>
